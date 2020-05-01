@@ -105,23 +105,42 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid red;
+  flex-flow: row wrap;
 }
 
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid lightgreen;
+  flex-flow: row wrap;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  border: 1px solid blue;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  border: 1px solid blue;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
   align-items: center;
 }
 
-header nav ul li {
-  list-style: none;
+footer .social-icons p {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -133,46 +152,91 @@ header nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+  border: 1px solid red;
 }
 
 
-/* ---------- Main Home (Aside - Form Area) ----------*/
+/* ---------- Main Home (Aside ) ----------*/
 
 aside {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+  border: 1px solid red;
 }
 
 
-/* ---------- Main Home (Section - Features area) ----------*/
+/* ---------- Main Home (Features area) ----------*/
 
 .features {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
+  border: 1px solid red;
 }
 
 .features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+  border: 1px solid lightgreen;
 }
 
 
-/* ---------- Main Home (Section - Review Area) ----------*/
+/* ---------- Main Home (Reviews Area) ----------*/
 
 .reviews {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
+  border: 1px solid red;
 }
 
 
-/* ---------- Main About (Section - Review Area) ----------*/
+/* ---------- Main About (Mission Area) ----------*/
+
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  border: 1px solid red;
+}
+
+
+/* ---------- Main About (Contact Area) ----------*/
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  border: 1px solid red;
+}
 
 
 
+/* ---------- Main FAQ (FAQ Area) ----------*/
+
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  border: 1px solid red;
+}
+
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  border: 1px solid red;
+}
 
 
 
