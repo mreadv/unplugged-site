@@ -98,6 +98,86 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ---------- Base Header - Footer Styles ----------*/
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav ul li {
+  list-style: none;
+  display: flex;
+}
+
+
+
+
+/* ---------- Main Home (Hero Area) ----------*/
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* ---------- Main Home (Aside - Form Area) ----------*/
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* ---------- Main Home (Section - Features area) ----------*/
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* ---------- Main Home (Section - Review Area) ----------*/
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* ---------- Main About (Section - Review Area) ----------*/
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
