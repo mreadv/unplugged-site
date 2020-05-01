@@ -461,7 +461,7 @@ aside {
       align-items: center;
       flex-basis: 50%;
       flex-flow: column wrap;
-    }
+    
  
     }
  
@@ -549,6 +549,61 @@ aside {
 @media screen and (min-width: 1200px) {
 
   /* Desktop Styles Here */
+
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+
+  /* Hero */
+
+  .hero-area h1 {
+    width: 60%;
+  }
+
+
+  /* Aside */
+
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+
+  /* Featurs */
+
+  .features h2 {
+    width: 90%;
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+  
+  /* Reviews */
+  .reviews article div {
+    width: 42%;
+  }
+
+
+  /* ----------- About ---------- */
+
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 95%;
+  }
+
+
+  /* ----------- FAQ ---------- */
+
+  .faq h2 {
+    width: 100%;
+  }
+
+
 
 }
 
