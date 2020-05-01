@@ -438,9 +438,6 @@ aside {
     /* Hero Area */
  
     /* Aside */
-    aside .content-wrapper {
-        margin: 50px 0;
-    }
 
     aside .content-wrapper {
       margin: 50px 0;
@@ -452,7 +449,7 @@ aside {
  
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {        
-        width: 40%;x        
+        width: 40%;     
         margin: 0;
     }
  
@@ -480,7 +477,7 @@ aside {
     }
     
     .reviews article div {
-        width: 50%; 
+        width: 49%; 
     }
 
 
@@ -531,6 +528,21 @@ aside {
       align-items: flex-start;
     }
 
+
+
+    /* ---------- FAQ ----------*/
+
+    .faq .content-wrapper {
+      justify-content: space-between;
+    }
+
+    .faq .faq-content {
+      flex-basis: 45%;
+    }
+
+    .faq .content-wrapper h2 {
+      width: 100%;
+    }
 }
 
 
