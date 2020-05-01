@@ -482,31 +482,54 @@ aside {
     .reviews article div {
         width: 50%; 
     }
+
+
  
     /* Footer */
-    footer .content-wrapper {
-        width: 
-        margin: 100px 0;
+   footer .content-wrapper {
+      width: 65%;
+      margin: 100px 0;
     }
-    
+  
     .footer-content {
- 
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
+  
  
     footer .contact {
         margin-bottom: 0;
+
     }
  
     footer .copyright {
-        width:
+        width: 100%
     }
+
+    /* ---------- About Page ----------*/
   
 
+    .mission-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 20px;
+    }
 
+    .mission-content p {
+      width: 45%;
+    }
 
+    .contact-section .content-wrapper h2 {
+      width: 80%;
+    }
 
-
-
+    .contact-section .contact-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
 
 }
 
