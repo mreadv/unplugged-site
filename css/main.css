@@ -101,6 +101,50 @@ textarea {
 
 /* ---------- General ----------*/
 
+
+html {
+  font-size: 16pt;
+}
+ 
+body {
+ font-family: 'Open Sans', sans-serif;
+}
+ 
+ul, 
+ol {
+ 
+}
+ 
+a {
+  
+}
+ 
+h2 {
+ font-family: 'Poppins', sans-serif;
+}
+ 
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+ 
+}
+ 
+p {
+  
+}
+ 
+img {
+ 
+}
+ 
+figure {
+ 
+}
+ 
+address {
+ 
+}
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
