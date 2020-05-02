@@ -134,7 +134,7 @@ h1 {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.2;
 }
  
@@ -225,8 +225,15 @@ footer p {
 }
 
 footer .content-wrapper {
+  display: flex;
+  justify-content: center;
   width: 55%;
   margin: 50px 0;
+}
+
+footer .contact,
+footer .social {
+  text-align: center;
 }
 
 footer .contact {
@@ -329,6 +336,7 @@ input[type=button] {
 
 .features p {
   margin: 0;
+  text-align: center;
 }
 
 
@@ -337,6 +345,7 @@ input[type=button] {
 /* ---------- Main Home (Reviews Area) ----------*/
 
 .reviews {
+  background-color: #2A423A;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -352,6 +361,8 @@ input[type=button] {
   margin: 20px 0;
 }
 
+.reviews h4
+
 
 /* ---------- Main About (Mission Area) ----------*/
 
@@ -361,8 +372,9 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 1px solid red;
+  border: 1px solid green;
 }
+
 
 
 /* ---------- Main About (Contact Area) ----------*/
