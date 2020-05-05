@@ -122,32 +122,19 @@ a {
   color: #e2e3ed;
   text-decoration: none;
 }
-
-h1 {
-  color: #e2e3ed;
-  font-family: 'Poppins', sans-serif;
-  font-weight: normal;
-  font-size: 2.25em;
-  line-height: 1.2em;
-}
  
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
-  font-weight: 400;
-  line-height: 1.2;
+  font-weight: 500;
 }
  
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   margin: 20px 0;
   font-size: 1.125em;
-  line-height: 1.2;
-}
-
-h4 {line-height: 1.333;
 }
  
 p {
@@ -155,7 +142,6 @@ p {
   font-size: .875em;
   font-weight: 400;
   line-height: 1.285;
-
 }
   
 address {
@@ -259,7 +245,14 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  border: 1px solid red;
+}
+
+.hero-area h1 {
+  color: #e2e3ed;
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 
@@ -272,7 +265,6 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 1px solid red;
 }
 
 aside .form {
@@ -308,7 +300,6 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  border: 1px solid red;
 }
 
 .features h2 {
@@ -325,7 +316,6 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 1px solid lightgreen;
 }
 
 .features p {
@@ -343,11 +333,11 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  border: 1px solid red;
 }
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .reviews h3 {
@@ -379,9 +369,11 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 1px solid red;
 }
 
+.contact-content p {
+  margin: 0;
+}
 
 
 /* ---------- Main FAQ (FAQ Area) ----------*/
@@ -395,10 +387,20 @@ input[type=button] {
 }
 
 .faq .content-wrapper {
+  margin: 50px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
+  line-height: 1;
+}
+
+.faq-content h4 {
+  line-height: 1.333;
 }
 
 
