@@ -255,6 +255,10 @@ footer .copyright {
   line-height: 1.2;
 }
 
+.hero-area {
+  background: url('../img/jake-melara-30679-unsplash-web.jpg') center no-repeat #333;
+  background-size: cover;
+}
 
 
 /* ---------- Main Home (Aside ) ----------*/
