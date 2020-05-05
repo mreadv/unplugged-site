@@ -148,6 +148,14 @@ address {
  font-style: normal;
 }
  
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -175,6 +183,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -304,6 +320,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/rawpixel-800820-unsplash1-web.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2 {
