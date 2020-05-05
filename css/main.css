@@ -146,6 +146,9 @@ h4 {
   font-size: 1.125em;
   line-height: 1.2;
 }
+
+h4 {line-height: 1.333;
+}
  
 p {
   font-family: 'open-sans', sans-serif;
@@ -393,11 +396,11 @@ input[type=button] {
 /* ---------- Main FAQ (FAQ Area) ----------*/
 
 .faq {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 1px solid red;
 }
 
 .faq .content-wrapper {
@@ -405,7 +408,6 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 1px solid red;
 }
 
 
