@@ -361,18 +361,18 @@ input[type=button] {
   margin: 20px 0;
 }
 
-.reviews h4
+
 
 
 /* ---------- Main About (Mission Area) ----------*/
 
 
 .mission {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 1px solid green;
 }
 
 
@@ -380,6 +380,7 @@ input[type=button] {
 /* ---------- Main About (Contact Area) ----------*/
 
 .contact-section {
+  background-color: #2A423A;
   display: flex;
   justify-content: center;
   align-items: center;
