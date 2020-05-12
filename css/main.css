@@ -187,11 +187,15 @@ header .content-wrapper {
 }
 
 header figure {
-  width: 60%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+header figure img {
+  width: 60%;
 }
 
 .header-divider {
@@ -581,7 +585,7 @@ h3 {
     padding: 33px 0;
   }
 
-  header .content-wrapper {
+header .content-wrapper {
     justify-content: space-between;
     width: 100%;
     display: flex;
@@ -589,19 +593,26 @@ h3 {
     flex-flow: row;
     }
 
-     header figure {
-    width: 30%;
-  }
+
+  header figure {
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
  
     header nav {
-        width: 20%;
-        border: 1px solid red;
+        width: 30%;
     }
  
     header nav ul {
       display: flex;
       justify-content: space-between;
     }
+
  
     .header-divider {
         display: none;
