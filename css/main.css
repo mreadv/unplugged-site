@@ -105,33 +105,33 @@ textarea {
 html {
   font-size: 16px;
 }
- 
+
 body {
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
   color: #e2e3ed;
   text-align: left;
 }
- 
+
 ul, 
 ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
- 
+
 a {
   color: #e2e3ed;
   text-decoration: none;
 }
- 
+
 h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.875em;
   margin: 0;
 }
- 
+
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
@@ -139,24 +139,24 @@ h4 {
   font-size: 1.125em;
   margin: 20px 0;
 }
- 
+
 p {
   font-size: .875em;
   line-height: 1.285;
 }
- 
+
 img {
  width: 100%;
 }
- 
+
 figure {
  margin: 0;
 }
- 
+
 address {
  font-style: normal;
 }
- 
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -305,7 +305,7 @@ aside {
 aside .form {
   margin-top: 30px;
 }
- 
+
 input[type=text] {
   box-sizing: border-box;
   width: 100%;
@@ -313,7 +313,7 @@ input[type=text] {
   font-style: italic;
   padding: 1em;
 }
- 
+
 input[type=button] {
   width: 100%;
   padding: 20px 0;
@@ -445,8 +445,13 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.faq .content-wrapper .faq-content p {
+  line-height: 1.285em;
+}
+
+
 .faq .content-wrapper {
-  margin: 50px 0 0 0;
+  margin: 100px 0 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -557,75 +562,71 @@ input[type=button] {
 
   /* Tablet Styles Here */
 
-@media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
 
 
-  /* General Styles */
+    /* General Styles */
 
-  .content-wrapper {
-    max-width: 640px;
-    margin: 100px 0;
-  }
+    .content-wrapper {
+      max-width: 640px;
+      margin: 100px 0;
+    }
 
-  h2 {
-    font-size: 2.25em;
-    line-height: 1.333;
-}
+    h2 {
+      font-size: 2.25em;
+      line-height: 1.333;
+    }
 
-h3 {
-    font-size: 1.5em;
-    line-height: 1.25;
-}
-
-
-  /* Header Area */
-
-  header {
-    justify-content: space-around;
-    padding: 33px 0;
-  }
-
-header .content-wrapper {
-    justify-content: space-between;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row;
+    h3 {
+      font-size: 1.5em;
+      line-height: 1.25;
     }
 
 
-  header figure {
-  width: 60%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-flow: row wrap;
-}
+    /* Header Area */
 
+    header {
+      justify-content: space-around;
+      padding: 33px 0;
+    }
 
- 
+    header .content-wrapper {
+      justify-content: space-between;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-flow: row;
+    }
+
+    header figure {
+      width: 60%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-flow: row wrap;
+    }
+
     header nav {
-        width: 30%;
+      width: 30%;
     }
- 
+
     header nav ul {
       display: flex;
       justify-content: space-between;
     }
 
- 
     .header-divider {
-        display: none;
+      display: none;
     }
 
-     .hero-area h1 {
-    font-size: 3em;
-    line-height: 1;
-    margin: 0;
-}
- 
+    .hero-area h1 {
+      font-size: 3em;
+      line-height: 1;
+      margin: 0;
+    }
+
     /* Hero Area */
- 
+
     /* Aside */
 
     aside .content-wrapper {
@@ -633,98 +634,92 @@ header .content-wrapper {
       display: flex;
       justify-content: space-between;
       flex-flow: row wrap;
-
     }
- 
+
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {        
-        width: 40%;     
-        margin: 0;
+      width: 40%;     
+      margin: 0;
     }
- 
+
     /* Features */
 
     .features h2 {
       margin-bottom: 20px;
     }
- 
+
     .features article {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-basis: 50%;
       flex-flow: column wrap;
-    
- 
     }
- 
+
     .features .features-item-description {
-        width: 62%;
-        text-align: center;
+      width: 62%;
+      text-align: center;
     }
- 
+
+
     /* Reviews */
     .reviews article {
       display: flex;
       justify-content: space-between;
     }
     
-  .reviews h2 {
-    width: 85%;
-  }
+    .reviews h2 {
+      width: 85%;
+    }
 
-  .reviews article div,
-  .reviews article figure {
-    width: 49%; 
-  }
+    .reviews article div,
+    .reviews article figure {
+      width: 49%; 
+    }
+
+    .reviews h3 {
+      width: 75%;
+      margin: 0;
+    }
 
 
-  .reviews h3 {
-    width: 75%;
-    margin: 0;
-  }
-
-
- 
     /* Footer */
-   footer .content-wrapper {
+    footer .content-wrapper {
       width: 65%;
       margin: 100px 0;
     }
-  
+
     footer .footer-content {
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-direction: row;
     }
-  
- 
+
     footer .contact {
-        margin-bottom: 0;
-
+      margin-bottom: 0;
     }
 
-     footer h4 {
-    font-size: 1.5em;
-    margin-bottom: 40px;
-  }
+    footer h4 {
+      font-size: 1.5em;
+      margin-bottom: 40px;
+    }
 
-  footer p {
+    footer p {
       line-height: 1.285;
-  }
-
-  footer .social-icons {
-    width: 12.5em;
-    justify-content: space-between;
-  }
- 
-    footer .copyright {
-        width: 100%
     }
+
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
+    }
+
+    footer .copyright {
+      width: 100%
+    }
+
 
     /* ---------- About Page ----------*/
-  
 
     .mission-content {
       display: flex;
@@ -737,9 +732,9 @@ header .content-wrapper {
       width: 45%;
     }
 
-     .map figure {
-    padding-bottom: 45.5%;
-  }
+    .map figure {
+      padding-bottom: 45.5%;
+    }
 
     .contact-section .content-wrapper h2 {
       width: 80%;
@@ -751,32 +746,33 @@ header .content-wrapper {
       align-items: flex-start;
     }
 
- .contact-content h4 {
-    font-size: 1.5em;
-  }
+    .contact-content h4 {
+      font-size: 1.5em;
+    }
 
 
     /* ---------- FAQ ----------*/
 
     .faq .content-wrapper {
       justify-content: space-between;
+
     }
 
     .faq .faq-content {
       flex-basis: 45%;
     }
 
-     .faq h2 {
-    width: 100%;
-  }
+    .faq h2 {
+      width: 100%;
+    }
 
-  .faq h4,
-  .faq p {
+    .faq h4,
+    .faq p {
       font-size: .875em;
       line-height: 1.125;
-  }
+    }
 
-}
+  }
 
 
 @media screen and (min-width: 1200px) {
