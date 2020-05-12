@@ -107,15 +107,17 @@ html {
 }
  
 body {
-  color: #e2e3ed;
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
+  color: #e2e3ed;
   text-align: left;
 }
  
 ul, 
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
  
 a {
@@ -125,37 +127,36 @@ a {
  
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.875em;
   font-weight: 500;
+  font-size: 1.875em;
+  margin: 0;
 }
  
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  margin: 20px 0;
   font-size: 1.125em;
+  margin: 20px 0;
 }
  
 p {
-  font-family: 'open-sans', sans-serif;
   font-size: .875em;
-  font-weight: 400;
   line-height: 1.285;
 }
-  
+ 
+img {
+ width: 100%;
+}
+ 
+figure {
+ margin: 0;
+}
+ 
 address {
  font-style: normal;
 }
  
-img {
-  width: 100%;
-}
-
-figure {
-  margin: 0;
-}
-
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -178,11 +179,11 @@ header {
 }
 
 header .content-wrapper {
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 0;
 }
 
 header figure {
@@ -194,31 +195,34 @@ header figure {
 }
 
 .header-divider {
-  background-color: #3a3a3a;
-  width: 100%;
+  background: #3a3a3a; 
   height: 1px;
+  width: 100%;
   margin: 10px 0 20px 0;
 }
 
 header nav {
+  width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  font-weight: 700;
-  text-transform: uppercase;
-  width: 60%;
-  font-size: 1.125em;
 }
 
 header nav ul {
-  display: flex;
   width: 100%;
+  display: flex;
   justify-content: space-around;
 }
 
+header nav ul li {
+  font-size: 1.125em;
+}
+
 footer {
-  color: #fff;
   text-align: center;
   flex-direction: column;
 }
@@ -243,15 +247,22 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
+
 footer .copyright {
   margin: 20px 0;
 }
-
 
 
 
@@ -573,6 +584,9 @@ h3 {
   header .content-wrapper {
     justify-content: space-between;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
     }
 
      header figure {
@@ -581,9 +595,11 @@ h3 {
  
     header nav {
         width: 20%;
+        border: 1px solid red;
     }
  
     header nav ul {
+      display: flex;
       justify-content: space-between;
     }
  
@@ -665,10 +681,11 @@ h3 {
       margin: 100px 0;
     }
   
-    .footer-content {
+    footer .footer-content {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-direction: row;
     }
   
  
@@ -684,6 +701,11 @@ h3 {
 
   footer p {
       line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
  
     footer .copyright {
@@ -750,12 +772,8 @@ h3 {
 
   /* Desktop Styles Here */
 
- header {
+header {
     padding: 15px 0;
-  }
-
-  .hero-area {
-    min-height: 775px;
   }
 
   .content-wrapper {
@@ -775,11 +793,12 @@ h3 {
       font-size: 1.125em;
       line-height: 1.333;
   }
+
   /* Hero */
   .hero-area h1 {
     font-size: 3.75em;
     width: 80%;
-}
+  }
 
   /* Aside */
   aside .content-wrapper {
@@ -806,7 +825,7 @@ h3 {
   }
   
   /* Reviews */
-
+  
   .reviews h2 {
     padding-bottom: 50px; 
   }
@@ -818,6 +837,7 @@ h3 {
   footer h4 {
     font-size: 1.875em;
   }
+
 
   /* ==========================================================================
   About Page
