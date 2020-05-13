@@ -599,12 +599,22 @@ input[type=button] {
     }
 
     header figure {
-      width: 60%;
-      display: flex;
+    
       justify-content: flex-start;
-      align-items: center;
-      flex-flow: row wrap;
+     
     }
+
+
+header figure img {
+  width: 60%;
+}
+
+
+
+
+header figure img {
+  width: 60%;
+}
 
     header nav {
       width: 30%;
